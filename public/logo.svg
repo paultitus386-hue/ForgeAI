@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="none">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+  <!-- Mark: Stylized F with forge spark -->
+  <g transform="translate(0, 5)">
+    <!-- Left bracket -->
+    <path d="M8 5 L4 5 L4 45 L8 45" stroke="url(#g1)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- F letter paths -->
+    <line x1="4" y1="5" x2="24" y2="5" stroke="url(#g1)" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="4" y1="25" x2="20" y2="25" stroke="url(#g1)" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Spark/flame tips -->
+    <path d="M24 5 L28 1 L30 6 L33 0 L35 7" stroke="#06B6D4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Right bracket -->
+    <path d="M38 5 L42 5 L42 45 L38 45" stroke="url(#g1)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+  <!-- Wordmark -->
+  <text x="56" y="38" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="22" font-weight="700" letter-spacing="-0.5" fill="white">Forge</text>
+  <text x="139" y="38" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="22" font-weight="700" letter-spacing="-0.5" fill="url(#g1)">AI</text>
+</svg>
